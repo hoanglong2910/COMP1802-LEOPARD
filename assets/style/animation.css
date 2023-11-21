@@ -213,26 +213,26 @@ body, html{
 }
 #bg2{
 	top: 0;
-	left: 100px;
+	left: 50px;
 	z-index: 1;
 }
 #bg3{
 	top: 0;
-	left: 200px;
+	left: 100px;
 	z-index: 1;
 }
 #sound1{
 	top: 0;
-	left: 300px;
+	left: 150px;
 	z-index: 1;
 }
 #sound2{
 	top: 0;
-	left: 350px;
+	left: 200px;
 	z-index: 1;
 }
 #sound3{
 	top: 0;
-	left: 400px;
+	left: 250px;
 	z-index: 1;
 }
