@@ -1,0 +1,238 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+#container{
+	width: 100%;
+	height: 100%;
+}
+
+body, html{
+	height: 100%;
+	overflow: hidden;
+}
+#turtle{
+    left:250px; top:400px;
+	width: 200px; height: 147px;
+	position: absolute;
+	-webkit-animation-name: turtle;
+	-webkit-animation-duration: 25s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running,paused;	
+	-webkit-transform:scaleX(1)
+}
+@-webkit-keyframes turtle
+{
+	0%   {left:250px; top:400px;}
+	1%   {left:250px; top:400px;}
+	20%  {left:800px; top:200px;}
+	30%  {left:900px; top:200px;}
+	40%  {left:1000px; -webkit-transform:scaleX(1);}
+	60%  {left:1000px; top:400px; -webkit-transform:scaleX(-1);}
+	90%  {left:400px; top:400px; -webkit-transform:scaleX(-1);}
+	100% {left:300px; top:400px; -webkit-transform:scaleX(1);}
+}
+#turtle1{
+    left:200px; top:400px;
+	width: 200px; height: 147px;
+	position: absolute;
+	-webkit-animation-name: turtle1;
+	-webkit-animation-duration: 25s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running,paused;	
+	-webkit-transform:scaleX(1)
+}
+@-webkit-keyframes turtle1
+{
+	0%   {left:200px; top:300px;}
+	1%   {left:200px; top:300px;}
+	20%  {left:700px; top:150px;}
+	30%  {left:800px; top:150px;}
+	40%  {left:900px; -webkit-transform:scaleX(1);}
+	60%  {left:900px; top:350px; -webkit-transform:scaleX(-1);}
+	90%  {left:300px; top:350px; -webkit-transform:scaleX(-1);}
+	100% {left:200px; top:350px; -webkit-transform:scaleX(1);}
+}
+#shark
+{
+	left:900px; top:400px;
+	width: 200px; height: 147px;
+	position: absolute;
+	-webkit-animation-name: Shark;
+	-webkit-animation-duration: 17s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+	-webkit-transform:scaleX(1)
+}
+@-webkit-keyframes Shark
+{
+	0%   {left:1000px; top:400px;}
+	1%   {left:1000px; top:400px;}
+	20%  {left:200px; top:50px;}
+	40%  {left:200px; -webkit-transform:scaleX(1);}
+	60%  {left:200px; top:300px; -webkit-transform:scaleX(-1);}
+	80%  {left:800px; top:50px; -webkit-transform:scaleX(-1);}
+	90%  {left:800px; top:200px; -webkit-transform:scaleX(-1);}
+	100% {left:1000px; top:400px; -webkit-transform:scaleX(1);}
+}
+#cá
+{
+	left:250px; top:400px;
+	width: 200px; height: 147px;
+	position: absolute;
+	-webkit-animation-name: cá;
+	-webkit-animation-duration: 18s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+	-webkit-transform:scaleX(1)
+}
+@-webkit-keyframes cá
+{
+	0%   {left:250px; top:400px;}
+	1%   {left:250px; top:400px;}
+	20%  {left:800px; top:200px;}
+	30%  {left:900px; top:200px;}
+	40%  {left:1000px; -webkit-transform:scaleX(1);}
+	60%  {left:1000px; top:400px; -webkit-transform:scaleX(-1);}
+	90%  {left:400px; top:400px; -webkit-transform:scaleX(-1);}
+	100% {left:300px; top:400px; -webkit-transform:scaleX(1);}
+}
+#crab{
+    left: 50px; top:40px;
+	width: 200px; height: 147px;
+	position: absolute;
+	-webkit-animation-name: crab;
+	-webkit-animation-duration: 25s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+	-webkit-transform:scaleX(1)
+}
+@-webkit-keyframes crab
+{
+	0%   {left:100px; top:600px;}
+	1%   {left:100px; top:600px;}
+	20%  {left:400px; top:600px;}
+	40%  {left:700px; -webkit-transform:scaleX(1);}
+	60%  {left:900px; top:600px; -webkit-transform:scaleX(1);}
+	90%  {left:400px; top:600px; -webkit-transform:scaleX(1);}
+	100% {left:100px; top:600px; -webkit-transform:scaleX(1);}
+}
+#mực{
+	left:50px; top:400px;
+	width: 200px; height: 147px;
+	position: absolute;
+	-webkit-animation-name: mực;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+	-webkit-transform:scaleX(1)
+}
+@-webkit-keyframes mực
+{
+	0%   {left:50px; top:400px;}
+	1%   {left:50px; top:400px;}
+	40%  {left:100px; top:50px;}
+	70%  {left:10px; top:100px; -webkit-transform:scaleX(1);}
+	100% {left:100px; top:500px; -webkit-transform:scaleX(1);}
+}
+#saobien{
+	left:100px; top:500px;
+	width: 200px; height: 147px;
+	position: absolute;
+}
+#saobien1{
+	left:100px; bottom:-50px;
+	width: 600px; height: 147px;
+	position: absolute;
+}
+#sò{
+	left: 900px; top:500px;
+	width: 400px; height:294px;
+	position:absolute;
+}
+#rong{
+	left:300px; top:250px;
+	width: 200px; height: 147px;
+	position:absolute;
+}
+#rong1{
+	right:500px; top:500px;
+	width: 200px; height: 147px;
+	position:absolute;
+}
+#rong2{
+	right:100px; top:250px;
+	width: 200px; height: 147px;
+	position:absolute;
+}
+#bóng{
+	right:10px ;top:250px;
+	width: 400px; height: 197px;
+	position:absolute;
+}
+#đá{
+	right:10px ; bottom: -50px;
+	width: 600px; height: 197px;
+	position:absolute;
+}
+#bóng2{
+	left:300px; top:250px;
+	width: 200px; height: 147px;
+	position:absolute;
+}
+#background{
+    position: relative;
+
+}
+#nen img{
+    width: 100%;
+    height: 100%;
+	background-size: cover;
+}
+#background_image img{
+	width: 100%;
+	height: 100%;
+}
+.bg_ch{
+	position: absolute;
+}
+.amthanhcuagio{
+	position: absolute;
+}
+#bg1{
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+#bg2{
+	top: 0;
+	left: 50px;
+	z-index: 1;
+}
+#bg3{
+	top: 0;
+	left: 150px;
+	z-index: 1;
+}
+#sound1{
+	top: 0;
+	left: 200px;
+	z-index: 1;
+}
+#sound2{
+	top: 0;
+	left: 250px;
+	z-index: 1;
+}
+#sound3{
+	top: 0;
+	left: 300px;
+	z-index: 1;
+}
